@@ -1,0 +1,14 @@
+<html>
+<body>
+<div id="getting-started"></div>
+<script type="text/javascript">
+  $("#getting-started")
+  .countdown("2018/3/10", function(event) {
+    $(this).text(
+      event.strftime('%D days %H:%M:%S')
+    );
+  });
+</script>
+
+</body>
+</html>
