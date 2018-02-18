@@ -3,12 +3,14 @@
 <head>
 <script src="//code.jquery.com/jquery.js"></script>
 <script src="//cdn.rawgit.com/hilios/jQuery.countdown/2.2.0/dist/jquery.countdown.min.js"></script>
+<link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+
 </head>
 
 <body>
-<div id="getting-started"></div>
+<div style="font-family: 'Orbitron', sans-serif;" id="mz0"></div>
 <script type="text/javascript">
-  $("#getting-started")
+  $("#mz0")
   .countdown("2018/3/10", function(event) {
     $(this).text(
       event.strftime('%D:%H:%M:%S')
