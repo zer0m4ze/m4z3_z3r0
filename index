@@ -1,4 +1,9 @@
 <html>
+
+<head>
+<script src="//cdn.rawgit.com/hilios/jQuery.countdown/2.2.0/dist/jquery.countdown.min.js"></script>
+</head>
+
 <body>
 <div id="getting-started"></div>
 <script type="text/javascript">
